@@ -27,6 +27,8 @@ def _extract_trainee(data):
     trainee.append(data.get('email_address', None))
     trainee.append(data.get('name', None))
     trainee.append(data.get('school_name', None))
+    trainee.append(data.get('completion_percentage', None))
+    trainee.append(data.get('version_number', None))
     return trainee
 
 
